@@ -2,6 +2,9 @@
 <html>
 
   {% include head.html %}
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
 
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
@@ -154,7 +157,7 @@
 
         <div class="resume-item">
           <h4 class="resume-item-details">Software Development</h4>
-          <p class="resume-item-copy">Java, Python, c/c++, JS/HTML/CSS/SQL</p>
+          <p class="resume-item-copy">Java, Python, C/C++, JS/HTML/CSS/SQL</p>
         </div>
 
         <div class="resume-item">

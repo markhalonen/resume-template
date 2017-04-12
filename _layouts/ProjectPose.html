@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	{% seo %}
+	{% if jekyll.environment == 'production' %}
+		{% include analytics.html %}
+	{% endif %}
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<p class='title'>Pose</p>
+<p class='description'>Pose is a photo booth that uses Facebook Messenger as the interface. Example conversation:</p>
+
+<figure>
+  <img src="convo.PNG" class='convo'/>
+</figure>
+<p class='description'>The keystone of the idea is that people don't want to ask others to take pictures of them.</p>
+<hr>
+
+<figure>
+  <img src="on_prospect.JPG" />
+  <figcaption>Here is V1 on the wall at my house</figcaption>
+</figure>
+
+<figure>
+  <img src="at_rosetta.JPG" />
+  <figcaption>Here's V2 on the wall at Rosetta Cafe in Calumet</figcaption>
+</figure>
+
+
+<figure>
+  <img src="front.JPG" style="image-orientation: from-image" />
+  <img src="back.JPG"  style="image-orientation: from-image" />
+  <figcaption>Here are some closeups of the hardware</figcaption>
+</figure>
+
+
+<hr>
+<figure>
+  <img src="Level1Diagram.svg" style="image-orientation: from-image" class="svg"/>
+  <figcaption>Here's how it works</figcaption>
+</figure>
+
+<hr>
+
+<figure>
+  <img src="Level2Diagram.svg" style="image-orientation: from-image" class="svg"/>
+  <figcaption>Here's how it works with more details</figcaption>
+</figure>
+
+<hr>
+
+<figure>
+  <img src="Level3Diagram.svg" style="image-orientation: from-image" class="svg"/>
+  <figcaption>Here's how it works with all details</figcaption>
+</figure>
+
+
+<hr>
+</html>

@@ -1,0 +1,69 @@
+image-orientation: inherit;
+body {
+    background-color: #eee;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: "Roboto"
+}
+
+.diagram {
+	display: block;
+    margin: auto;
+    height: 75%;
+}
+
+.diagram2 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    display: block;
+    margin: auto;
+    height: 75%;
+}
+
+.title {
+	text-align: center;
+	font-size: 40px;
+}
+
+.description {
+	text-align: center;
+	font-size: 20px;
+}
+
+figure {
+    text-align: center;
+    display: table;
+    max-height: 10px; /* demo; set some amount (px or %) if you can */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+}
+
+figure figcaption {
+    margin-top:10px;
+}
+
+figure img {
+    image-orientation: 90deg;
+    max-height: 600px;
+    max-width: 700px;
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+figure .svg {
+    max-height: 600px;
+    max-width: 700px;
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+
+.convo {
+    border-width: 5px;
+    border: solid;
+    border-color: #b7b7b7;
+    border-radius: 5px;
+}
